@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.fc.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fc.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "BlockMixin",
+    "LocalPlayerMixin",
+    "ConnectionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
